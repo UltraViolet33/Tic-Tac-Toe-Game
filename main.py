@@ -101,6 +101,7 @@ def click(event):
 
 
 window = Tk()
+window.title("Tic Tac Toe Game")
 window.geometry(str(SIZE) + "x" + str(SIZE))
 canvas = Canvas(window, width=SIZE, height=SIZE, borderwidth=0,
                 highlightthickness=0, bg="lightgray")
